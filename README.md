@@ -1,6 +1,6 @@
 # Kali in The Browser
 
- Simple kali linux docker in the browser
+ Simple kali linux in the browser with docker and tightvnc
 
 ## Installation
 
