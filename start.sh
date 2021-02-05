@@ -26,4 +26,4 @@ vncserver -kill :0
 echo "/usr/bin/startx" >> /root/.vnc/xstartup
 vncserver :0 -geometry 1920x1080 -depth 16
 
-/usr/share/novnc/utils/launch.sh --listen 8080 --vnc localhost:5900
+/usr/share/novnc/utils/launch.sh --listen 8082 --vnc localhost:5900
