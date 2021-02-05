@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y kali-desktop-xfce tightvncserver novnc 
 
 COPY ./start.sh /start.sh
 
-EXPOSE 8080
+EXPOSE 8082
 WORKDIR /root
 ENV HOME=/root \
     SHELL=/bin/bash
