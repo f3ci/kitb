@@ -22,9 +22,9 @@ EOF
 
 export USER=root
 
-FILE=/tmp/.X11-unix/X0
+FILE=/tmp/.X0-lock
 if [ -f "$FILE" ]; then
-    rm $FILE /tmp/.X0-lock
+    rm $FILE /tmp/.X11-unix/X0
 fi
 
 vncserver :0 -geometry 1920x1080 -depth 16
